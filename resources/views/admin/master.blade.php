@@ -64,9 +64,6 @@
             </div>
         </div>
         @yield('rows')
-        <div class="row">
-            test sourcetree
-        </div>
         
         <footer class="container-fluid" style="margin-top:20px;"">
             <div class="row">
