@@ -18,5 +18,4 @@ Route::get('/about', 'PagesController@about');
 
 Route::get('/service', 'PagesController@service');
 
-
 //Route::get('/login', 'loginController@getIndex');
