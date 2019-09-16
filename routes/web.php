@@ -12,8 +12,11 @@
 */
 
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PagesController@index');
 
-Route::get('/login', 'loginController@getIndex');
+Route::get('/about', 'PagesController@about');
+
+Route::get('/service', 'PagesController@service');
+
+
+//Route::get('/login', 'loginController@getIndex');
