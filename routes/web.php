@@ -11,11 +11,12 @@
 |
 */
 
+Route::get('/','PagesController@index');
+Route::get('/about','PagesController@about');
+Route::get('/service','PagesController@service');
 
-Route::get('/', 'PagesController@index');
-
-Route::get('/about', 'PagesController@about');
-
-Route::get('/service', 'PagesController@service');
+Route::resource('posts', 'PostController');
+//Route::get('/admin','adminController@index');
+//Route::get('/admin/{command}','adminController');
 
 //Route::get('/login', 'loginController@getIndex');
